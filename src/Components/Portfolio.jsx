@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bulletin-board.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Board with sticky notes";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Plain HTML, CSS, JavaScript Quiz App 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A quiz app that generates questions and answers from the Trivia API, and allows users to see their score at the end.",
+    url: "https://quiz-app-roan-rho.vercel.app",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Storefront Backend API",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a backend implementation of an e-commerce API, using typescript as the primary language, with a PostgreSQL database and comprehensive test coverage.",
+    url: "https://github.com/grand-rick001/Storefront-Backend-API",
   },
   {
-    title: "My Resume Site",
+    title: "My First Portfolio Website",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My first portfolio website that showcases some projects I built as well as my skills.",
+    url: "https://portfolio-grand-rick001.vercel.app",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Storefront E-commerce Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A storefront e-commerce website that allows users to browse products, add them to their cart and checkout, built with Angular.",
+    url: "https://my-store-final.vercel.app/",
   },
 ];
 
